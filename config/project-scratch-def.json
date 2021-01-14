@@ -1,0 +1,40 @@
+{
+  "orgName": "Demo company",
+  "edition": "Developer",
+  "features": [
+          "Communities",
+          "MultiCurrency" , 
+          "ContactsToMultipleAccounts",
+          "CascadeDelete",
+          "Communities",
+          "PersonAccounts",
+          "StateAndCountryPicklist",
+          "Entitlements",
+          "LiveAgent"
+  ],
+  "settings": {
+    "orgPreferenceSettings": {
+      "networksEnabled": true,
+      "s1DesktopEnabled": true,
+      "s1EncryptedStoragePref2": false
+  },
+  "omniChannelSettings": {
+      "enableOmniChannel": true
+  },
+
+  "caseSettings": {
+      "systemUserEmail": "debarshi56@gmail.com"
+  },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "securitySettings": {
+      "passwordPolicies": {
+        "enableSetPasswordInApi": true
+      }
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}
